@@ -1,0 +1,378 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main{
+	background-image: url(../img/drdo.jpg);
+	background-color: rgba(0,0,0,0.5);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+header{
+	width: 100%;
+	height: 90vh;
+	background-color: rgba(0,0,0,0.5);
+
+}
+nav{
+	width: 100%;
+	height: 20vh;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav .leftnav{
+	margin-left: 15px;
+}
+nav .rightnav ul{
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+	color: white;
+}
+nav .rightnav ul li{
+	text-decoration: none;
+}
+nav .rightnav ul a{
+	color: white;
+	text-decoration: none;
+}
+nav .rightnav ul a:hover{
+	font-size: 22px;
+}
+nav > a{
+	text-decoration: none;
+	background-color: #083791;
+	color: white;
+	margin-right: 20px;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+header main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120px;
+}
+header main .logo{
+	transition: all 0.2s ease;
+	z-index: 10;
+	-webkit-transition:-webkit-transform 0.3s;
+}
+header main .logo:hover{
+	-webkit-transform: rotate(1440deg) scale(1.2);
+}
+.maincontent{
+	width: 100%;
+	background-color: #D5D8DC;
+}
+/*.color{
+	background-color: #D5D8DC;
+}*/
+
+
+
+/**** DECORATION FOR SECTION ONE ****/
+
+
+
+.secone{
+	width: 88%;
+	height: 270px;
+	background-color: white;
+	margin-left: 80px;
+	margin-right: 20px;
+	margin-bottom: 90px;
+	position: relative;
+	top: 40px;
+	color: #797D7F;
+	box-shadow: 2px 2px 5px black;
+
+}
+.secone .roundone{
+	float: left;
+	margin: 25px 18px;
+}
+.secone .roundone h1{
+	font-weight: 250;
+	color: #424949;
+}
+.secone .roundone p{
+	margin-top: 20px;
+	font-weight: 150;
+	font-size: 20px;
+	word-spacing: 1px;
+	line-height: 25px;
+}
+.secone .roundone button{
+	padding: 12px 25px;
+	border-radius: 2px;
+	margin-top: 0;
+	background: white;
+}
+.roundone button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #797D7F;
+}
+.secone .roundoneimg{
+	float: right;
+	clip-path: polygon(38% 0, 100% 0%, 100% 99%, 0% 100%);
+}
+.color .roundone{
+	width: 67%;
+}
+.secone .roundone button:hover {
+	background-color: #0B470D;
+	color: #fff;
+}
+.secone .roundone a:hover{
+	color: #fff;
+}
+/**** DECORATION FOR SECTION TWO***/
+
+
+.color .roundtwo{
+	width: 67%;
+}
+.sectwo{
+	width: 88%;
+	height: 270px;
+	background-color: white;
+	margin-left: 80px;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	color: #797D7F;
+	box-shadow: 2px 2px 5px black;
+}
+.sectwo .roundtwo{
+	float: right;
+	margin: 25px 18px;
+}
+.sectwo .roundtwo h1{
+	font-weight: 250;
+	color: #424949;
+}
+.sectwo .roundtwo .pone{
+	margin-top: 20px;
+	font-weight: 150;
+	font-size: 20px;
+	word-spacing: 1px;
+	line-height: 25px;
+}
+.sectwo .roundtwo button{
+	padding: 12px 25px;
+	border-radius: 2px;
+	margin-top: 0;
+	background: white;
+	position: relative;
+	top: 15px;
+}
+.roundtwo button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #797D7F;
+}
+
+.sectwo .roundtwoimg{
+	float: left;
+	clip-path: polygon(0 0, 54% 0, 100% 100%, 0% 100%);
+}
+.sectwo .roundtwo button:hover{
+	background-color: #0B470D;
+	color: #fff;
+}
+.sectwo .roundtwo a:hover{
+	color: #fff;
+}
+
+/**** DECORATION FOR SECTION THREE ***/
+
+
+.color .roundthree{
+	width: 67%;
+}
+.secthree{
+	width: 88%;
+	height: 270px;
+	background-color: white;
+	margin-left: 80px;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px
+	color: #797D7F;
+	box-shadow: 2px 2px 5px black;
+}
+.secthree .roundthree{
+	float: left;
+	margin: 25px 18px;
+}
+.secthree .roundthree h1{
+	font-weight: 250;
+	color: #424949;
+}
+.secthree .roundthree p{
+	margin-top: 20px;
+	font-weight: 150;
+	font-size: 20px;
+	word-spacing: 1px;
+	line-height: 25px;
+	color: #797D7F;
+}
+.secthree .roundthree button{
+	padding: 12px 25px;
+	border-radius: 2px;
+	margin-top: 0;
+	background: white;
+	position: relative;
+	top: 15px;
+}
+.roundthree button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #797D7F;
+}
+.secthree .roundthreeimg{
+	float: right;
+	clip-path: polygon(38% 0, 100% 0%, 100% 99%, 0% 100%);
+}
+.secthree .roundthree button:hover{
+	background-color: #0B470D;
+	color: #fff;
+}
+.secthree .roundthree a:hover{
+	color: #fff;
+}
+
+
+/******DECORATION FOR SECTION FOUR****/
+.color .roundfour{
+	width: 67%;
+}
+.secfour{
+	width: 88%;
+	height: 270px;
+	background-color: white;
+	margin-left: 80px;
+	margin-right: 20px;
+	margin-top: 100px;
+	position: relative;
+	bottom: 50px;
+	color: #797D7F;
+	box-shadow: 2px 2px 5px black;
+}
+.secfour .roundfour{
+	float: right;
+	margin: 25px 18px;
+}
+.secfour .roundfour h1{
+	font-weight: 250;
+	color: #424949;
+}
+.secfour .roundfour .pone{
+	margin-top: 20px;
+	font-weight: 150;
+	font-size: 20px;
+	word-spacing: 1px;
+	line-height: 25px;
+}
+.secfour .roundfour button{
+	padding: 12px 25px;
+	border-radius: 2px;
+	margin-top: 0;
+	background: white;
+	position: relative;
+	top: 15px;
+}
+.roundfour button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #797D7F;
+}
+
+.secfour .roundfourimg{
+	float: left;
+	clip-path: polygon(0 0, 54% 0, 100% 100%, 0% 100%);
+}
+.secfour .roundfour button:hover{
+	background-color: #0B470D;
+	color: #fff;
+}
+.secfour .roundfour a:hover{
+	color: #fff;
+}
+.makeii{
+	width: 100%;
+	height:800px;
+	background-image: url(../img/mii.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-animation: zoom 5s infinite;
+	animation: zoom 5s infinite;
+}
+@keyframes zoom{
+	0%{
+		background-size: 100%;
+	}
+	50%{
+		background-size: 110%;
+	}
+	100%{
+		background-size: 100%;
+	}
+}
+.gallery{
+	display: flex;
+	align-items: center;
+}
+/******FOOTER****/
+footer .mainfooter{
+	width: 100%;
+}
+.mainfooter .contactlogo{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,232,67,1) 26%, rgba(53,233,59,1) 72%, rgba(0,212,255,1) 100%);
+	background-size: cover;
+	height: 120px;
+	padding-top: 0;
+}
+
+.mainfooter .copyright{
+	height: 32px;
+	background-color: #0C6E1E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	color: white;
+}
+i{
+	color: white;
+}
+.opp{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+.contactlogo{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.fa{
+	margin-right: 4px;
+}
+.fa:hover{
+	transform: rotate(15deg);
+	transition-duration: 0.3s;
+}
