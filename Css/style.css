@@ -330,10 +330,18 @@ header main .logo:hover{
 		background-size: 100%;
 	}
 }
-.gallery{
-	display: flex;
-	align-items: center;
+.maingallery{
+	background-color: #08917F;
 }
+.galleryright{
+	float: right;
+}
+.Gallery{
+	font-size: 50px;
+	margin-right: 100px;
+	font-weight: bold;
+}
+
 /******FOOTER****/
 footer .mainfooter{
 	width: 100%;
